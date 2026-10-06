@@ -1,0 +1,71 @@
+# ===== OS (Mac / Windows 공통) =====
+.DS_Store
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 가상환경 =====
+.venv/
+venv/
+env/
+.conda/
+
+# ===== 비밀 정보 =====
+.env
+*.key
+secrets.*
+
+# ===== 데이터 (용량 큼, 재현 가능) =====
+data/raw/
+data/processed/
+*.csv
+*.sdf
+*.mol2
+*.pdb
+*.xyz
+*.h5
+*.hdf5
+*.lmdb
+*.parquet
+
+# ===== 모델 / 학습 결과 =====
+checkpoints/
+models/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.ckpt
+*.onnx
+*.safetensors
+runs/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+logs/
+outputs/
+
+# ===== 계산화학 출력물 (필요시) =====
+*.chk
+*.cube
+*.fchk
+*.log
